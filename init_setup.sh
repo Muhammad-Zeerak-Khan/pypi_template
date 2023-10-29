@@ -1,5 +1,5 @@
 echo [$(date)]: "START"
-echo [$(date)] : "Creating conda env with python 3.8"
+echo [$(date)] : "Creating conda env with python 3.8" #Update python version as desired
 conda create --prefix ./env python=3.8.1 -y
 echo [$(date)]: "Activating the environment"
 source activate ./env

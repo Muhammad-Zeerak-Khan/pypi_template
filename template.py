@@ -18,18 +18,8 @@ logging.info(f"Creating project by the name : {project_name}")
 
 # List of files
 list_of_file = [
-    ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
-    "tests/__init__.py",
-    "tests/unit/__init__.py",
-    "tests/integration/__init__.py",
-    "init_setup.sh",
-    "requirements_dev.txt",
-    "requirements.txt",
-    "setup.py",
-    "pyproject.toml",
-    "setup.cfg",
-    "tox.ini"
+
 ]
 
 for filepath in list_of_file:
